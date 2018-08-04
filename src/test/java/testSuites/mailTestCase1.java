@@ -32,6 +32,7 @@ public class mailTestCase1 {
 		action.writeText(password, data.getCell("loginPage", "password", "userData"));
 		action.clickElement(loginButton);		
 		//ต๗สิ
+		//abc
 		try {
 			OutputStream out=new FileOutputStream("D:\\ttt.txt");
 		} catch (FileNotFoundException e) {
