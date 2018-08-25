@@ -1,9 +1,9 @@
 <suite name="suite">
  <test name="test">
  	<classes>
- 		<class name="testSuites.mailTestCase1"></class>
+ 		<class name="testSuites.findHUITAI"></class>
  			<methods>
- 				<include name="testCaseMail"></include>
+ 				<include name="findStart"></include>
  			</methods>
  	</classes>
  </test>

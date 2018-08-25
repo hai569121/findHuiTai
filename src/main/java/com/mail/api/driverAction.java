@@ -58,5 +58,10 @@ public class driverAction {
 	public void clearText(WebElement element){
 		element.clear();
 	}
+	
+	//ªÒ»°url
+	public String getUrl(){
+		return driver.getCurrentUrl();
+	}
 
 }

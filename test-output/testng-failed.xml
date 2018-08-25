@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testSuites.mailTestCase1">
+      <class name="com.mail.api.test">
         <methods>
-          <include name="testCaseMail"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- testSuites.mailTestCase1 -->
+      </class> <!-- com.mail.api.test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
